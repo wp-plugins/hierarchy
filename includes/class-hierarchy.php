@@ -87,7 +87,7 @@ class Hierarchy {
 	function __construct() {
 		$this->plugin_name  = 'hierarchy';
 		$this->prefix       = '_iti_hierarchy_';
-		$this->version      = '1.0.1';
+		$this->version      = '1.0.2';
 		$this->dir          = plugin_dir_path( dirname( __FILE__ ) );
 		$this->url          = plugins_url( 'hierarchy', $this->dir );
 		$this->capability   = apply_filters( 'hierarchy_capability', 'manage_options' );
@@ -478,8 +478,7 @@ class Hierarchy {
 				</form>
 			</div>
 			<style type="text/css">
-				.tablenav { display:none; }
-				#iti-hierarchy-wrapper { padding-top:1em; }
+				#iti-hierarchy-wrapper { margin-top:-2em; }
 				#iti-hierarchy-wrapper .column-icon { width:1em; text-align:center; }
 			</style>
 		</div>

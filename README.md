@@ -42,7 +42,7 @@ It's also likely that you're utilizing Custom Post Types to power sections of yo
 
 #### More information
 
-If you'd like a lot more information on the implementation and workflow changes please see [the detailed introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0-is-here/).
+If you'd like a lot more information on the implementation and workflow changes please see [the detailed introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0/).
 
 ## Installation
 
@@ -51,6 +51,10 @@ If you'd like a lot more information on the implementation and workflow changes 
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 #### Changelog
+
+**1.0.2**
+* Fixed an issue where pagination wasn't displaying properly
+* Fixed an issue where standalone (e.g. not 'child') CPT entries were not properly output
 
 **1.0.1**
 * Fixed a false positive that would incorrectly output post type entires

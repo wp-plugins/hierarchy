@@ -4,7 +4,7 @@ Donate link: http://mondaybynoon.com/donate/
 Tags: hierarchy, pages, cpt, custom post types, url, routing
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ It's also likely that you're utilizing Custom Post Types to power sections of yo
 
 = More information =
 
-If you'd like a lot more information on the implementation and workflow changes, [check out the screenshots](http://wordpress.org/plugins/hierarchy/screenshots/) and please see [the introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0/).
+If you'd like a lot more information on the implementation and workflow changes, [check out the screenshots](http://wordpress.org/plugins/hierarchy/screenshots/) and please see [the introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0-is-here/).
 
 == Installation ==
 
@@ -56,8 +56,12 @@ You have a WordPress `page` with the slug of `about` and you have a CPT for Team
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed an issue where pagination wasn't displaying properly
+* Fixed an issue where standalone (e.g. not 'child') CPT entries were not properly output
+
 = 1.0.1 =
-* Fixed a false positive that would incorrectly output post type entires
+* Fixed a false positive that would incorrectly output post type entries
 * Clean up .org repo (deploy script didn't remove legacy files)
 
 = 1.0 =
