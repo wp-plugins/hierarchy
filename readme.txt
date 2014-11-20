@@ -30,7 +30,7 @@ It's also likely that you're utilizing Custom Post Types to power sections of yo
 
 = More information =
 
-If you'd like a lot more information on the implementation and workflow changes, [check out the screenshots](http://wordpress.org/plugins/hierarchy/screenshots/) and please see [the introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0-is-here/).
+If you'd like a lot more information on the implementation and workflow changes, [check out the screenshots](http://wordpress.org/plugins/hierarchy/screenshots/) and please see [the introduction](https://mondaybynoon.com/introducing-hierarchy/) and [the follow-up for 1.0](https://mondaybynoon.com/hierarchy-1-0/).
 
 == Installation ==
 
